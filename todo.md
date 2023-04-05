@@ -1,0 +1,34 @@
+- [x] Use laravels service container
+- [x] Bind singletons in kernel, not directly in app
+- [x] See how laravel handles helpers (where do they get loaded and how?)
+- [x] Add support for config files
+- [x] add Arr
+- [x] add Collections
+- [x] add Str
+- [x] add PHPStan
+- [x] Facades
+- [x] Add tailwindcss
+    - [x] Ensure tailwind also works for admin.
+- [x] Pint
+- [x] Pre commit
+- [x] Resolve dependencies from container (see Route.php)
+- [x] Figure out new metaboxes
+- [x] Exceptions
+    [ ] improve implementation
+
+# Figure out
+- [ ] https://github.com/laravel/framework/blob/9.x/bin/facades.php
+- [ ] Eslint
+- [ ] Wordpress default elements styling
+    - https://help.author.envato.com/hc/en-us/articles/360000481263-WordPress-Theme-Requirements-Part-1-General
+- [ ] translations (a clean way to do this, generic method which uses text domain from config.)
+- [ ] Put framework in a package (composer)
+- [ ] Put app in a package (composer)
+- [ ] Add tests for framework
+- [ ] Add testing support for app
+- [ ] Automatic changelog figure out
+- [ ] Add "artisan like" commands:
+    - [ ] make:controller
+    - [ ] release (bump version, create tag, push to git, create zip, ...)
+- [ ] Create installer script
+- [ ] Create a basic simple theme and see if we need anything else
