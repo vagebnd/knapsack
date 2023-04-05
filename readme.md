@@ -6,7 +6,7 @@
 This is a WordPress starter kit and can be used to kickstart your theme development.
 
 ## 1: Installation
-composer create-project vagebond/knapsack your-theme-name (not yet implemented)
+composer create-project knapsack/knapsack your-theme-name
 
 ## 2: Adding templates
 Knapsack uses the Knapsack router to map templates to views.
