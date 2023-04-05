@@ -2,9 +2,8 @@
 
 namespace App\Controllers;
 
-use App\Metaboxes\CustomMetabox;
-use Knapsack\Compass\Models\Post;
 use Knapsack\Compass\Routing\Controller;
+use Knapsack\Compass\Support\Facades\Config;
 
 class IndexController extends Controller
 {
@@ -16,10 +15,13 @@ class IndexController extends Controller
 
     public function index()
     {
-        $post = Post::find(get_the_ID());
-
         return vgb_view('index', [
-            'post' => $post,
+            'editorUrl' => $this->getEditorUrl(),
         ]);
+    }
+
+    private function getEditorUrl()
+    {
+        return Config::get('app.editor') . '://file/' . trim(vgb_path('resources/views/index.blade.php'), '/');
     }
 }
