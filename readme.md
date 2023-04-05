@@ -1,3 +1,7 @@
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/knapsack/knapsack.svg?style=flat-square)](https://packagist.org/packages/knapsack/knapsack)
+[![Total Downloads](https://img.shields.io/packagist/dt/knapsack/knapsack.svg?style=flat-square)](https://packagist.org/packages/knapsack/knapsack)
+
+
 # Vagebond Knapsack
 This is a WordPress starter kit and can be used to kickstart your theme development.
 
