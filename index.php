@@ -11,5 +11,4 @@ use App\Controllers\IndexController;
  * The controller can be found at this path: app/Controllers/IndexController.
  * The view can be found in the resources/views directory.
  */
-
 vgb_run_controller(IndexController::class, 'index');
