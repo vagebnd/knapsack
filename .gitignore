@@ -39,3 +39,6 @@ yarn.lock
 
 # Composer
 /vendor/
+
+# PHP Cs Fixer
+.php-cs-fixer.cache
