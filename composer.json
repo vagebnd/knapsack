@@ -1,7 +1,7 @@
 {
     "name": "vagebnd/knapsack",
     "description": "Knapsack WordPress starter theme",
-    "type": "project",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "App\\": "app/"
