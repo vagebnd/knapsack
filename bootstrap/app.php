@@ -39,3 +39,5 @@ $app->make(KernelContract::class);
 |--------------------------------------------------------------------------
 */
 require_once __DIR__.'/theme/settings.php';
+
+return $app;
