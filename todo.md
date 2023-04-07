@@ -13,11 +13,13 @@
 - [x] Pre commit
 - [x] Resolve dependencies from container (see Route.php)
 - [x] Figure out new metaboxes
+- [x] https://github.com/laravel/framework/blob/9.x/bin/facades.php
 - [x] Exceptions
     [ ] improve implementation
 
 # Figure out
-- [ ] https://github.com/laravel/framework/blob/9.x/bin/facades.php
+- [ ] Add Str and Collections (own implementation)
+- [ ] Make comment block in style.css dynamic.
 - [ ] Eslint
 - [ ] Wordpress default elements styling
     - https://help.author.envato.com/hc/en-us/articles/360000481263-WordPress-Theme-Requirements-Part-1-General
