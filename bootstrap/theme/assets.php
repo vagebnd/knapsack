@@ -10,8 +10,6 @@ use Knapsack\Compass\Support\Vite;
 */
 add_action('wp_enqueue_scripts', function () {
     $vite = Vite::make();
-
-    // Get this from config.
     $vite->asset('app.ts');
 
     wp_enqueue_style('knapsack-style', get_template_directory_uri().'/style.css', [], wp_get_theme()->get('Version'));
@@ -31,9 +29,6 @@ add_action('admin_enqueue_scripts', function ($hook) {
         return;
     }
 
-
     $vite = Vite::make();
-
-    // Get this from config.
     $vite->asset('admin.ts');
 });
