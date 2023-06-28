@@ -7,5 +7,4 @@ parameters:
         - app/
         - bootstrap/
         - config/
-        - framework/
         - routes/
