@@ -14,23 +14,28 @@
 - [x] Resolve dependencies from container (see Route.php)
 - [x] Figure out new metaboxes
 - [x] https://github.com/laravel/framework/blob/9.x/bin/facades.php
+- [x] Put framework in a package (composer)
+- [x] Put app in a package (composer)
+- [x] Create installer script
 - [x] Exceptions
     [ ] improve implementation
+- [ ] add eslint
+    [ ] add autofix
 
 # Figure out
+- [ ] Add support for page and post templates (using is_single() -- is_page())
+    - [ ] Router::page('name', controller)
+    - [ ] Router::post('name', controller)
+    - see: https://wordpress.stackexchange.com/questions/295896/dynamically-override-page-php-or-single-php-with-custom-templates-using-function
 - [ ] Add Str and Collections (own implementation)
 - [ ] Make comment block in style.css dynamic.
-- [ ] Eslint
 - [ ] Wordpress default elements styling
     - https://help.author.envato.com/hc/en-us/articles/360000481263-WordPress-Theme-Requirements-Part-1-General
 - [ ] translations (a clean way to do this, generic method which uses text domain from config.)
-- [ ] Put framework in a package (composer)
-- [ ] Put app in a package (composer)
 - [ ] Add tests for framework
 - [ ] Add testing support for app
 - [ ] Automatic changelog figure out
 - [ ] Add "artisan like" commands:
     - [ ] make:controller
     - [ ] release (bump version, create tag, push to git, create zip, ...)
-- [ ] Create installer script
 - [ ] Create a basic simple theme and see if we need anything else
